@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc ./index.ts",
-    "start": "http-server -c-1 -o",
+    "start": "http-server -c-1 -p 8448 -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,7 +29,8 @@
     "opentype.js": "^0.7.3"
   },
   "devDependencies": {
+    "@types/node": "^16.10.5",
     "http-server": "^0.12.3",
-    "typescript": "^2.5.2"
+    "typescript": ""
   }
 }
